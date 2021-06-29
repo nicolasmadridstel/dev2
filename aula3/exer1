@@ -1,0 +1,81 @@
+
+void main ()
+{
+  String nome = "Nicolas";
+  String sobrenome = "Madrid";
+  String idade = "18 anos";
+  String endereco = "Rua  F";
+  
+  imprimir (nome);
+  imprimir (sobrenome);
+  impressão (idade);
+  imprimir (endereco);
+  
+}
+
+
+____________________________________________________________
+
+void main ()
+{
+ 
+  valor duplo =  26.50
+  multi duplo = (valor * 4);
+  
+  imprimir (multi);
+  
+}
+
+
+____________________________________________________________
+
+ 
+ void main ()
+{ 
+  base_maior dupla =  12;
+  base_menor duplo = 6;
+   altura dupla =  5
+  
+  área dupla = ((base_maior + base_menor) * altura / 2);
+  
+  área de impressão);
+  
+  
+  
+}
+  
+
+
+___________________________________________________________
+
+void main ()
+{
+ 
+  duplo lado1 = 8;
+  lado2 duplo = 15;
+  
+  área dupla = (lado1 * lado2);
+  
+  área de impressão);
+  
+  
+  
+}
+
+___________________________________________________________
+
+ void main () {
+   
+   String nome1 = "nicolas";
+   String nome2 = "nicolas";
+   
+   if (nome1 == nome2);
+     print ("ok");
+   }senão
+     print ("no usuario");
+     
+   }
+
+   
+  
+}
