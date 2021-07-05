@@ -1,0 +1,296 @@
+ // 1
+
+  void main ()
+ { 
+    double nota1;
+    double nota2;
+    double nota3;
+    
+    String a = "a";
+    String b = "b";
+    String c = "c";
+    
+    switch (c) {
+      case "a": print ("A média aritmética é: $ {(nota1 + nota2 + nota3) / 3}");
+        pausa;
+      case "b": print ("A média ponderada é: $ {((nota1 * 5 + nota2 * 3 nota3 * 2) / 10)}");
+        pausa;
+      case "c": print ("A média harmônica é: $ {(3) / ((1 / nota1) + (1 / nota2) + (1 / nota3))}");
+        padrão: imprimir ("erro");
+      
+    }
+        
+  }
+
+______________________________________________________________________________________________________________________
+
+ // 2
+  void main ()
+ { 
+    
+    int n1 = 10;
+    int n2 = 2;
+    
+    if (n1 <n2) {
+      imprimir (n1);
+    }
+    
+    else if (n2 <n1) {
+      imprimir (n2);
+        }
+    senão {
+      print ("iguais");
+    }
+       
+     }
+
+_______________________________________________________________________________________________________________________
+
+// 3
+void main ()
+{
+  int n1 = 16;
+
+  if (n1% 2 == 0)
+  {
+    bool a = falso;
+    imprimir (a);
+  }
+  senão
+  {
+    bool b = verdadeiro;
+    imprimir (b);
+  }
+  
+  
+}
+
+_______________________________________________________________________________________________________________________
+// 4
+
+void main ()
+{
+
+  int a = 40;
+
+  if (a> 0)
+  {
+    bool a = verdadeiro;
+    imprimir (a);
+  }
+  senão
+  {
+    bool b = falso;
+    imprimir (b);
+  }
+
+}
+
+_______________________________________________________________________________________________________________________
+// 5
+
+import 'dardo: matemática'; 
+
+void main ()
+{
+
+  var nm = novo Aleatório ();
+
+    var a = nm.nextInt (50);
+    print ("Primeiro número: $ a");
+    var b = nm.nextInt (50);
+    print ("Segundo número: $ b");
+    var c = nm.nextInt (50);
+    print ("Terceiro número: $ c");
+
+    mídia dupla = (a + b + c) / 3;
+    print ("A média é: $ media");
+
+}
+
+_______________________________________________________________________________________________________________________
+// 6
+
+
+void main ()
+{
+  int n1 = 10;
+  int n2 = 14;
+
+  int soma = (n1 + n2);
+
+  print ("Primeiro número: $ {n1}");
+  print ("Primeiro número: $ {n2}");
+
+  print ("\ nSoma dos números: $ {soma}");
+  
+}
+
+_________________________________________________________________________________________________________________________
+// 7
+
+void main ()
+{
+  duplo mediaFinal = 0;
+  
+  if (mediaFinal> = 9.0) {
+    print ("Conceito final: A");
+  }
+    else if (mediaFinal> = 7.0 && mediaFinal <= 8.99) {
+      print ("Conceito final: B");
+    }
+  else if (mediaFinal> = 5.0 && mediaFinal <= 6.99) {
+      impressão ("Conceito final: C");
+    }
+  else if (mediaFinal> = 0,0 && mediaFinal <= 4,9) {
+      print ("Conceito final: D");
+    }
+  
+}
+
+__________________________________________________________________________________________________________________________
+// 8
+
+void main ()
+{
+  
+  int idade = 4;
+  
+  
+  if (idade> = 18) {
+      imprimir ("Cotegoria: Adulto");
+  }
+    else if (idade> = 14 && age <= 17) {
+      imprimir ("Cotegoria: Juvenil B");
+    }
+   else if (idade> = 11 && age <= 13) {
+      imprimir ("Cotegoria: Juvenil A");
+    }
+   else if (idade> = 8 && age <= 10) {
+      imprimir ("Cotegoria: Infantil B");
+    }
+   else if (idade> = 5 && age <= 7) {
+      imprimir ("Cotegoria: Infantil A");
+    }
+  senão{
+    print ("Você ainda não possui idade para tornar-se um nadador!");
+  }
+  
+}
+
+____________________________________________________________________________________________________________________________
+// 9
+
+void main ()
+{
+  valor int = 5;
+  
+  if (valor% 2 == 0) {
+    imprimir ("1");
+  }
+  senão{
+    imprimir ("0");
+  }
+ 
+}
+
+_____________________________________________________________________________________________________________________________
+// 10
+
+void main ()
+{
+  
+  duplo num1 = -2;
+  print ("Primeiro número: $ num1");
+  duplo num2 = 6;
+  print ("Segundo número: $ num2");
+  
+  soma duplo = (num1 + num2);
+  print ("A soma dos números é: $ soma");
+  
+  duplo produto = (num1 * (num2 * num2));
+  print ("O primeiro número pelo quadrado do segundo é: $ produto");
+  
+  qprimeiro duplo = (num1 * num1);
+  print ("O quadrado do primeiro número é: $ qprimeiro");
+  
+  triplo duplo = ((soma * 2) * 3);
+  print ("O triplo do dobro da soma dos dois números é: $ triplo");
+  
+  duplo metdobro = (triplo / 2);
+  print ("A metade do triplo do dobro da soma dos dois números é: $ metdobro");
+  
+  if (num1 <0) {
+    imprimir (- (num1));
+  }
+  senão{
+    imprimir (num1);
+  }
+   
+}
+
+_______________________________________________________________________________________________________________________________
+// 11
+
+
+void main ()
+{
+  
+  duplo num1 = 6;
+  print ("Primeiro número: $ num1");
+  duplo num2 = 6;
+  print ("Segundo número: $ num2");
+  
+  
+  para (var i = num1; i <= num2; i ++)
+  {
+    imprimir (i);
+  }
+    para (var i = num1; i> = num2; i--)
+  {
+    imprimir (i);
+  }
+  if (num1 == num2)
+  {
+    print ("Valores iguais!");
+  }
+}
+  
+
+________________________________________________________________________________________________________________________________
+// 12
+
+void main ()
+{
+  
+  duplo num1 = 4;
+  print ("Primeiro número: $ num1");
+  duplo num2 = 8;
+  print ("Segundo número: $ num2");
+  
+  String operacao = "-";
+  
+  calcular dinâmico () {
+    
+    switch (operação) {
+      
+      caso '*':
+      imprimir (num1 * num2);
+      pausa;
+      caso '/':
+      imprimir (num1 / num2);
+      pausa;
+      case '+':
+      imprimir (num1 + num2);
+      pausa;
+      caso '-':
+      imprimir (num1 - num2);
+      pausa;
+      
+    }
+          
+  }
+  
+  calcular ();
+    
+}
