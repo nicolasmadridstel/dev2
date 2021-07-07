@@ -1,0 +1,33 @@
+void  main ()
+{
+  // --- 1 ---
+  print ( '--- 1 --- \ n ' );
+  imprimir ( 'Este laço é o para! \ n ' );
+  para ( int i =  0 ; i <=  100 ; i ++ )
+  {
+    imprimir (i);
+  }
+}
+
+void  main ()
+{
+  // --- 2 --- 
+  print ( '--- 2 --- \ n ' );
+   Índices da lista const = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 ];
+  print ( 'Numeros resolvidos: $ { indices }' );
+  print ( 'Maior número deles: $ { indices [9] } \ n ' );
+}
+
+
+void  main ()
+{
+  duplo numA =  4 ;
+  duplo numB =  2 ;
+  var multiplicacao = numA * numB;
+  contador duplo =  0 ;
+  Faz
+  {
+    imprimir (contador);
+    contador + = multiplicacao;
+  } while (contador <=  1200 );
+}
